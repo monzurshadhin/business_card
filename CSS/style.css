@@ -1,0 +1,40 @@
+.card {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(105, 102, 102),
+    rgb(0, 0, 0)
+  );
+  width: 500px;
+  display: flex;
+  margin: auto;
+  margin-top: 100px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 15px;
+}
+.image-section {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-section img {
+  width: 80%;
+  border-radius: 50%;
+}
+.details-section {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details {
+  display: flex;
+  font-size: 18px;
+  color: white;
+}
+.title {
+  margin-right: 5px;
+}
