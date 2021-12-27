@@ -22,6 +22,7 @@
 .image-section img {
   width: 80%;
   border-radius: 50%;
+  border: 5px solid white;
 }
 .details-section {
   width: 300px;
